@@ -751,5 +751,14 @@ PROCESS {
     {
         Write-Warning "A reboot is required for all changes to take effect"
     }
+
+    # Create a marker file to indicate that the optimization script has run
+    $markerPath = "C:\ProgramData\Microsoft\Windows\WindowsOptimized.txt"
+
+    # Write timestamp and confirmation message
+    "Windows 11 Optimization Completed Successfully on $(Get-Date)" | Out-File -FilePath $markerPath -Encoding utf8 -Force
+
+        Write-Output "Optimization script executed successfully. Marker file created at $markerPath"
+
     ########################  END OF SCRIPT  ########################
 }
