@@ -31,7 +31,7 @@
   },
   {
     "AppxPackage": "Microsoft.DesktopAppInstaller",
-    "VDIState": "Disabled",
+    "VDIState": "Enabled",
     "URL": "https://apps.microsoft.com/detail/9NBLGGH4NNS1",
     "Description": "Microsoft App Installer for Windows 10 makes sideloading Windows apps easy"
   },
@@ -187,13 +187,13 @@
   },
   {
     "AppxPackage": "Microsoft.WindowsNotepad",
-    "VDIState": "Disabled",
+    "VDIState": "Enabled",
     "URL": "https://www.microsoft.com/en-us/p/windows-notepad/9msmlrh6lzf3",
     "Description": "Fast, simple text editor for plain text documents and source code files."
   },
   {
     "AppxPackage": "Microsoft.WindowsStore",
-    "VDIState": "Disabled",
+    "VDIState": "Enabled",
     "URL": "https://blogs.windows.com/windowsexperience/2021/06/24/building-a-new-open-microsoft-store-on-windows-11/",
     "Description": "Windows Store app"
   },
@@ -292,24 +292,6 @@
     "VDIState": "Disabled",
     "URL": "https://www.microsoft.com/en-us/p/3d-viewer/9nblggh42ths",
     "Description": "App to view common 3D file types"
-  },
-  {
-    "AppxPackage": "MicrosoftTeams",
-    "VDIState": "Disabled",
-    "URL": "https://apps.microsoft.com/detail/xp8bt8dw290mpq",
-    "Description": "Microsoft communication platform"
-  },
-  {
-    "AppxPackage": "MSTeams",
-    "VDIState": "Disabled",
-    "URL": "https://apps.microsoft.com/detail/xp8bt8dw290mpq",
-    "Description": "Microsoft communication platform"
-  },
-  {
-    "AppxPackage": "Microsoft.OneDriveSync",
-    "VDIState": "Enabled",
-    "URL": "https://docs.microsoft.com/en-us/onedrive/one-drive-sync",
-    "Description": "Microsoft OneDrive sync app (included in Office 2016 or later)"
   },
   {
     "AppxPackage": "Microsoft.Wallet",
